@@ -1,0 +1,22 @@
+{
+    "name": "node-basic-auth",
+    "version": "1.0.0",
+    "main": "src/config/app.js",
+    "scripts": {
+        "start": "node src/config/app.js",
+        "dev": "nodemon src/config/app.js"
+    },
+    "keywords": [],
+    "author": "Quasar",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^16.4.6",
+        "express": "^4.21.1",
+        "express-validator": "^7.2.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.8.3",
+        "nodemon": "^3.1.7"
+    }
+}
